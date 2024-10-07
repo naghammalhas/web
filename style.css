@@ -1,0 +1,40 @@
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    background-color: #F0F0F0; 
+    padding: 10px;
+    z-index: 1000;
+}
+
+
+.container {
+    display: flex;
+    margin-top: 60px; 
+
+.main-content {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #E0E0E0; 
+    padding: 15px; 
+}
+
+
+.sidebar {
+    width: 30%;
+    margin: 20px;
+    background-color: #D0D0D0;
+    padding: 15px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    background-color: #C0C0C0; 
+    padding: 10px; 
+    text-align: center; 
